@@ -4,7 +4,7 @@
 // }
 // let x = [5, 6, 7] , y = 80 ;
 // callme(x, y)
-// // x = non primitive, y = primitive
+// // x = non primitive(call(or)pass by reference) , y = primitive(call(or)pass by value)
 // console.log(x, y)
 
 // function test() {
