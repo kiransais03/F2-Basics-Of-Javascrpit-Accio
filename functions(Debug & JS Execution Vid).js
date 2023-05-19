@@ -25,7 +25,10 @@
 // }
 // let result = callme(3*a); 
 // result();
-// closure
+
+// Closures (In JavaScript, a closure is created when you have a function defined inside 
+//another function, and the inner function retains access to the variables and parameters of its outer 
+//function, even after the outer function has finished executing.)
 
 // let a = 20;
 // function one(two, a){
@@ -50,6 +53,13 @@
 //     }
 // }
 // callme(2*b)();
+
+
+/*Callbacks(A callback is a function that is passed as an argument to another function, and is 
+called after the main function has finished its execution. The main function is called with a callback function 
+as its argument, and when the main function is finished, it calls the callback function to provide a result. Callbacks 
+allow you to handle the results of an asynchronous operation in a non-blocking manner,
+// which means that the program can continue to run while the operation is being executed.)*/
 
 // let arr = [5, 6, 4, 5];
 // let callback = function(element, index, list){
