@@ -20,17 +20,23 @@
 // one(test);
 
 
-// this keyword=>it will be declard in two contexts global and local.
+// this keyword=>it can be declard in two contexts global and local.
+//In global context this keyword refers to windows object which will be given by the browser
+//In local context (i.e, inside any fuction or object it will carry the referece of the object or fucntion from
+//                                                                                       where it is being called)
 
 // let one = function(a, b, c){
 //     return a+b+c ;
 // }
 
+
+//Arrow function 
+
 // let two = (a , b , c) => 
 
 
 // console.log(two(10)); // 60
-// console.log(one(10, 20, 30)); // 60
+// console.log(one(10, 20, 30)); // 60 both give same output
 
 // this => globally(this === window)
 // locally => 
@@ -53,12 +59,19 @@
 //         }
 //     }
 // }
-// test = #600
+// test = #600 -- heap mempry address of an object obj
 
 
 // obj.c();
 
 // whenever you call a function using an object the reference of the object will be there inside that function in the form of this keyword
+
+
+//Window object of the browser, when we declare any fucntion,object & variables with var keyword will be included in the window object
+//variables declare with let and const keyword will not be included into the window because in es6 it is not inluded to get in.
+//for Example: 
+// let bbbb=25;   -- this will not be added into the window object
+
 
 // function aaa() {
 //     console.log("Inside aaa")
