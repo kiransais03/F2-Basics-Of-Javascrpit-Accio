@@ -20,7 +20,7 @@
 // one(test);
 
 
-// this 
+// this keyword=>it will be declard in two contexts global and local.
 
 // let one = function(a, b, c){
 //     return a+b+c ;
