@@ -1,11 +1,13 @@
 
 
-// let a = 20 ; // block scoped w
+// let a = 20 ; // block scoped 
 // if(true) {
 //     const a = 10; 
 //     const b = 90;
 //     console.log(a+b);
 // }
+// comsole.log(b);     (After execution of the if block it will deleted from the context in the call stack.And the b is also not 
+//                          accessible because the const is a block scoped.So output of the last line will be not defined.)
 
 // if(true){
 //     let a  = 20 ;
