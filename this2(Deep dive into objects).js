@@ -46,9 +46,26 @@
 // }
 // console.log(a) // not defined error
 
+//class in java script is similar to the one in Java.It is an entity or a blueprint is used to create object.Insead of creating the object
+//by writing the same properties again and again the, class and constructor is used , it will reduce the code
+
+//Creating objects without class
+var student1 = {
+    name = [89, 1, 2] ;
+   aadhar_number = "3893999300";
+   type = "frontbencher";
+}
+
+var student2 = {
+    name = "aravind";
+   aadhar_number = "372938203";
+   type = "backbencher";
+}
+
+//Creating objects by using the class
 
 // class Student {
-//     constructor(name, aadhar, type){
+//     constructor(name, aadhar, type){    //'constructor' is a keyword that need to be used while creating an object using the keyword
 //         // this  = {} // #400
 //         console.log(this) // 
 //         this.name = name ;
@@ -59,7 +76,7 @@
 
 // 'new' keyword gives the paramenters to the constructor along with an empty object which is created in the heap memory
 //and then the constructor stores all the values to the object.here 'this' keyword refers to the object address which is created.
-//Then cosntructor passes filled object to the new keyword, which assigns it to the s1 variable.
+//Then cosntructor passes filled object to the new keyword, which assigns it to the s1(instance) variable.
 
 
 // var s1 = new Student([89, 1, 2], "3893999300", "frontbencher");
