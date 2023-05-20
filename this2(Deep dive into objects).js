@@ -57,6 +57,11 @@
 //     }
 // }
 
+// 'new' keyword gives the paramenters to the constructor along with an empty object which is created in the heap memory
+//and then the constructor stores all the values to the object.here 'this' keyword refers to the object address which is created.
+//Then cosntructor passes filled object to the new keyword, which assigns it to the s1 variable.
+
+
 // var s1 = new Student([89, 1, 2], "3893999300", "frontbencher");
 // var s2 = new Student("aravind", "372938203" , "backbencher");
 
