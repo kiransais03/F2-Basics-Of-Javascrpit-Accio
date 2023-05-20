@@ -13,7 +13,8 @@
 // }
 // console.log(3 * a)
 
-// let and const are block scoped var is a context scoped
+// let and const are block scoped var is a context scoped so in the below code 
+//output will be 60(for var) and in the above code output is not defined error(because let and const are block scoped)
 // console.log(a)
 // if(true) {
 //     var a = 20 ;
