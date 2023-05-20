@@ -87,8 +87,10 @@ var student2 = {
 // console.log(value)
 
 
-// console.log(window.setTimeout)
+// console.log(window.setTimeout)  //setimeout(funstion,delaytime in msec) is a function that takes callback funstion and registers
+                                   //the function to the timer and send the function to Callback Queue after timeout. 
 
+//Note:10e1=10*10^1=100  , 10e2=10*10^2=10*100=1000  
 
 // console.log(1) // t = 0s
 // let func = () => {
@@ -102,6 +104,7 @@ var student2 = {
 // setTimeout(func, 9000); // t = 8ms , t = 9008ms
 // setTimeout(func1, 3000); // t = 10ms, t = 3010ms
 // console.log(3) // t = 12ms
+
 // console.time("abc") // t = 13ms
 // for(let i = 0 ; i < 10e9; i++){
 //     // 10e9 => 10*10^9 = 10^10 // 8700ms
