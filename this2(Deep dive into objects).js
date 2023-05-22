@@ -129,3 +129,18 @@ console.log(counter1()) // 1
 console.log(counter2()) // 0
 
 console.log(counter1(), counter2()) // 2, 1
+
+
+function act (a,b=10) {  //functiona also takes default value.If no value is passed it takes default value and if passed any value it takes it
+    console.log(a,b)
+}
+act();  //output- undefined 10(default value created)
+act(2) //op - 2 10
+act(2,3) //op- 2 3
+
+function talk(a) {  //Generally variables in fuctions is declared with var keyword initially and we can redeclare them again as below
+    var a =10;
+    console.log(a);
+}
+
+talk(20);   //output is 20  
