@@ -144,3 +144,18 @@ function talk(a) {  //Generally variables in fuctions is declared with var keywo
 }
 
 talk(20);   //output is 20  
+
+Spread operator :
+The Spread Operator
+The JavaScript spread operator (...) expands an iterable (like an array) into more elements.
+
+This allows us to quickly copy all or parts of an existing array into another array:
+
+Example
+Assign the first and second items from numbers to variables and put the rest in an array:
+
+const numbersOne = [1, 2, 3];
+const numbersTwo = [4, 5, 6];
+const numbersCombined = [...numbersOne, ...numbersTwo];
+
+Output : 1,2,3,4,5,6 
