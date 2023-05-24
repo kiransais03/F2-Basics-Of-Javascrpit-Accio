@@ -51,15 +51,15 @@
 
 //Creating objects without class
 var student1 = {
-    name = [89, 1, 2] ;
-   aadhar_number = "3893999300";
-   type = "frontbencher";
+    name : [89, 1, 2] ;
+   aadhar_number : "3893999300";
+   type : "frontbencher";
 }
 
 var student2 = {
-    name = "aravind";
-   aadhar_number = "372938203";
-   type = "backbencher";
+    name : "aravind";
+   aadhar_number : "372938203";
+   type : "backbencher";
 }
 
 //Creating objects by using the class
