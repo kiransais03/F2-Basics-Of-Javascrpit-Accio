@@ -42,11 +42,29 @@ The element with one reference can not be put at two places in the UI
 // const button = document.getElementsByTagName("button")[0] ;
 
 
+
 // button.addEventListener("click" , () => {
 //     const temp = document.createElement("b");// #400
 //     temp.innerText = "Element Bold"
 
-//     const temp2 = temp.cloneNode(true);
+//     div1.append(temp);   //If we try to add the same element to the different divs.It is not possible.We cant add one element to 
+//                               multiple html elements.Here we are trying to add temp(a newly created element) to both the div1 and div2
+//                               in the html.It is not possible.
+//     div2.append(temp);    //It will add only to one element.Process-- In line no 50. it adds to div1 element.And in line no 53. it 
+                              //gets disconnected(removed) from div1 and added into the div2.
+// })
+
+//  Note: From the above example we can say that in Js we cant add a single element to multiple html elements.To add like that we need to 
+//         create the new element by copying the data and then we can add.See below code for that.
+
+// button.addEventListener("click" , () => {
+//     const temp = document.createElement("b");// #400
+//     temp.innerText = "Element Bold"
+
+//     const temp2 = temp.cloneNode(true);  //Copying element temp to temp2 using .cloneNode() method
+
+//.cloneNode() Method :
+--.cloneNode(true)  : temp
 
 //     div1.append(temp2);
 //     div2.append(temp);
