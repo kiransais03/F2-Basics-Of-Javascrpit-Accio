@@ -42,16 +42,15 @@
 
 // const element = document.getElementById("test") ;
 
-// // console.log( element["data-abc"] )
+// // console.log( element["data-abc"] )    for custom attributes this type of call will not work.So use getAttribute to call custom attr.
 
-// // console.log(element["data-abc"]);
+// // console.log(element["data-abc"]);   for custom attributes this type of call will not work.So use getAttribute to call custom attr.
 
 // let attributeValue = element.getAttribute("data-abc") ;
 
 // console.log(attributeValue)
 
-// data-bs-toggle
-
+// data-bs-togg
 // function printHello() {
 //     console.log("Hello !")
 // }
@@ -118,6 +117,8 @@
 
 // let container = document.getElementById("container"); 
 
+//Creating a new HTML element
+
 // let newElement = document.createElement("span") ;
 // // <span>{}</span>
 
@@ -131,8 +132,13 @@
 // function addName() {
 //     let inputElement = document.createElement("input");
 //     inputElement.value = "Souvik";
-//     document.body.append(inputElement);
+//     document.body.append(inputElement);   //Adding a new element into the someother element(here inputElement to body tag)
 // }
+
+
+
+//Creating a div element with name age gender and adding them to the container user presernt in the html by clicking on adduser button
+
 
 /*
     <div class="user">
