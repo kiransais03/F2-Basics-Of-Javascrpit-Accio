@@ -132,6 +132,11 @@ Output :  <div id="test">   </div>
 // input.addEventListener("change", () => {
 //     console.log("Value changed")
 // })
+
+
+
+
+
 /*
     focus
     blur(unfocus)
